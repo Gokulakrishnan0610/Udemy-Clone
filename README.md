@@ -10,7 +10,7 @@ This project is a simple clone of the Udemy website, created using HTML and basi
 **CSS:** Basic styling to replicate the look and feel of the Udemy platform.
 
 ## How to View
-You can access my Udemy Clone website by visiting [Link] Feel free to explore the content.
+You can access my Udemy Clone website by visiting [https://gokulakrishnan0610.github.io/Udemy-Clone/] Feel free to explore the content.
 
 ## Contributing
 Contributions are welcome! Feel free to open an issue or submit a pull request if you have any improvements or new features you'd like to add.
