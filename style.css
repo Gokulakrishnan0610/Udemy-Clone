@@ -12,6 +12,10 @@ body{
     border-bottom: solid black 1px;
     gap: 10px;
     align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 1;
 }
 .navbar__s1__title{
     color: #A435F0;
@@ -52,6 +56,20 @@ body{
 }
 .sale img{
     width: 100%;
+}
+.sale{
+    position: relative;
+}
+
+.sale__offer{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    width: 35%;
+    position: absolute;
+    top: 10%;
+    left: 60px;
+    padding: 2%;
+    border: solid black 2px;
 }
 .recommended{
     padding: 10px;
@@ -112,4 +130,25 @@ body{
     justify-content: space-between;
     margin-top: 20px;
     align-items: center;
+}
+
+
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning__p{
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    position: absolute;
+    top: 150%;
+    right: 0%;
+    padding: 20px;
+    display: none;
+}
+
+.mylearning:hover .mylearning__p{
+    display: block;
 }
