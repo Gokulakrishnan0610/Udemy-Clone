@@ -42,6 +42,11 @@ body{
     gap: 10px;
     align-items: center;
 }
+
+.navbar__s4{
+    display: none;
+}
+
 .categories{
     display: flex;
     justify-content: space-around;
@@ -62,7 +67,6 @@ body{
     border: solid #A435F0 1px ;
     color: black;
     transition: 1s;
-
 }
 
 .sale img{
@@ -110,7 +114,9 @@ body{
     margin-top: 10px;
 }
 .course-card{
-    width: 250px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 }
 .course-card img{
     width: 100%;
@@ -179,4 +185,27 @@ body{
 
 .mylearning:hover .mylearning__p{
     display: block;
+}
+
+
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .course-card{
+        flex-basis: 40%;
+    }
+    .categories{
+        display: none;
+    }
+    .navbar__s3,.navbar__s2{
+        display: none;
+    }
+    .navbar__s4{
+        display: block;
+    }
+
 }
